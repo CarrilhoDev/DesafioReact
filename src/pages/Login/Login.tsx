@@ -1,6 +1,6 @@
 
 import { useEffect } from 'react';
-import {LoginContainer, LoginFields, BackgroundImage, Label, StyledLink} from '../../components/Login/styledComponents/index'; 
+import {LoginContainer, LoginFields, BackgroundImage, Label, StyledLink} from '../../components/Login/StyledComponents/index'; 
 import logoImage from '../../shared/assets/images/logo.png';
 import { Link } from 'react-router-dom';
 import { Input, Button } from '../../shared/styledComponents'

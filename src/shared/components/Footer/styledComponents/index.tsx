@@ -9,12 +9,12 @@ export const Container = styled.div`
   display: flex;
   flex-direction:column;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 100px;
 `;
 
 export const FooterContatos = styled.div`
   width: 100%;
-  height: 150px;
+  height: 180px;
   background: #f3f5f7;
   
   display: flex;
@@ -23,7 +23,7 @@ export const FooterContatos = styled.div`
  
   img{
       width: 50px;
-      height: 50px;
+      height: 55px;
       padding-bottom: 10px;
   }
   a {
@@ -57,7 +57,7 @@ flex-direction: column;
 align-items: center;
 img{
     width:60px;
-    height: 60px;
+    height: 65px;
 }
 a{
     visibility: hidden;
@@ -76,6 +76,7 @@ export const AssistenciaClientes = styled.div`
   align-items: center;
 `;
 
+//Style da segunda parte do footer
 export const FooterEmpresa = styled.div`
     width: 100%;
     background: #333;
@@ -89,7 +90,8 @@ export const FooterEmpresa = styled.div`
       font-size:1.2rem;
       font-weight:700;  
       margin-top:50px;
-      margin-bottom:10px;    
+      margin-bottom:10px;
+      align-self:start;   
     }
     a, li{
       text-decoration:none;
@@ -126,7 +128,7 @@ export const FooterFinal = styled.div`
 display: flex;
 background:#00974a;
 align-items: center;
-justify-content:space-around;
+justify-content:space-evenly;
 padding: 60px;
 padding-top: 40px;
 `;

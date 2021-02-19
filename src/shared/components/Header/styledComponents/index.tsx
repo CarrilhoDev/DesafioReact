@@ -3,18 +3,18 @@ import styled from "styled-components";
 export const Container = styled.div`
    
   width: 100%;
-  height: 70px;
+  height: 100px;
   display: flex;
   align-items: center;
   background: #00974a;
   justify-content: space-between;
-  margin-bottom: 100px;
+  margin-bottom: 10px;
 `;
 
 export const LadoEsquerdo = styled.div`
   
   img {
-    width: 120px;
+    width: 180px;
     height: 50px;
     padding-left: 20px;
   }

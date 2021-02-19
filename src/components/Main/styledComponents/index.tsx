@@ -70,24 +70,25 @@ export const StyledDots = styled.div`
     bottom: 25px;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
 `;
 
 export const DateTimeContainer = styled.div`
   width: 70%;
-  height: 150px;
   background-color: gold;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  margin-top: 270px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 `;
 
 export const InputContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
 `;
 
