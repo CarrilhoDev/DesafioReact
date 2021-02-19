@@ -28,13 +28,13 @@ export const FooterContatos = styled.div`
   }
   a {
       line-height: 1.0rem;
-      color: #00974a;
+      color: #00984a;
       font-weight: bold;
       text-decoration:none;
     }
     span {
     padding: 0px 10px;
-    color: #00974a;
+    color: #00984a;
     font-weight: 800;
     font-size: 16px;
     cursor: pointer;
@@ -126,7 +126,7 @@ align-items: center;
 
 export const FooterFinal = styled.div`
 display: flex;
-background:#00974a;
+background:#00984a;
 align-items: center;
 justify-content:space-evenly;
 padding: 60px;

@@ -4,6 +4,7 @@ import Index from './pages/Index/Index'
 import Main from './pages/Main/Main'
 import RentalSpecifications from './pages/RentalSpecifications/RentalSpecifications'
 import Register from './pages/Register/Register'
+import ReservasLogin from './pages/ReservasLogin/ReservasLogin';
 
 const App = function () {
     
@@ -14,6 +15,7 @@ const App = function () {
                 <Route exact path="/main" component={Main}/>
                 <Route exact path="/rental-specifications" component={RentalSpecifications}/>
                 <Route exact path="/register" component={Register}/>
+                <Route exact path="/my-reservations" component={ReservasLogin}/>
             </Switch>
         </BrowserRouter>
     );
